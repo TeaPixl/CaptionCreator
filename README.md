@@ -29,3 +29,13 @@ You can take these files and store them anywhere to be used, or leave them and t
 
 The "source.py" file is the source code for this program and the brain of it, it can be used to develop your own additions
 You can change the API that is used to convert speech into text with the recognise_[] function
+
+## Usage
+
+To use and edit this software you will need Python, and a couple of packages installed as well
+You will need the following packages:
+```
+pip install SpeechRecognition
+pip install Progressbar
+pip install ffmpeg
+```
