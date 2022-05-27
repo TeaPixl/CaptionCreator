@@ -37,7 +37,7 @@ You will need the following packages:
 ```python
 pip install SpeechRecognition
 pip install Progressbar
-pip install ffmpeg
+pip install Ffmpeg
 ```
 
 For basic usage you will rename your audio file to "audio" and place it in the empty directory named "Audio"
