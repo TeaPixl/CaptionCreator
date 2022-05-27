@@ -48,7 +48,7 @@ Then simply run the program and your captions will be outputted into the "Captio
 
 If you wish to edit the source code or change the speech API, You will need to:
 Go to this area of code in Caption_Creator.py
-```
+```python
 with audio_file as source:
         recognise.adjust_for_ambient_noise(source)
         print("Adjusted recording for background noise cancellation...")
