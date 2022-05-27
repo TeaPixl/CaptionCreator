@@ -54,7 +54,7 @@ finally:
         animated_progressbar()
         # records and sends speech to API
         audio = recognise.record(source)
-        # I am using the Sphinx API, feel free to change this if you would like
+        # I am using the Google API, feel free to change this if you would like
         finished_audio = recognise.recognize_google(audio)
         # begins to write captions to a file
         # shows an animated progress bar
