@@ -39,3 +39,36 @@ pip install SpeechRecognition
 pip install Progressbar
 pip install ffmpeg
 ```
+
+For basic usage you will rename your audio file to "audio" and place it in the empty directory named "Audio"
+YOUR ORGINAL AUDIO WILL BE DELETED
+Then simply run the program and your captions will be outputted into the "Captions" directory
+
+## Advanced Usage
+
+If you wish to edit the source code or change the speech API, You will need to:
+Go to this area of code in Caption_Creator.py
+```
+with audio_file as source:
+        recognise.adjust_for_ambient_noise(source)
+        print("Adjusted recording for background noise cancellation...")
+        # shows an animated progress bar
+        animated_progressbar()
+        # records and sends speech to API
+        audio = recognise.record(source)
+        # I am using the Google API, feel free to change this if you would like
+        finished_audio = recognise.recognize_google(audio)
+        # begins to write captions to a file
+        # shows an animated progress bar
+        animated_progressbar()
+```
+
+Edit the ***recognise.recognise_google(audio)*** into the API you wish
+
+Different API's yield different results, so test to find the best suited for you.
+Offline API's will allow you to use the program without an Internet connection.
+
+## Known Issues
+
+Using online Api's with large files causes an ***speech_recognition.Bad_Request*** Error.
+This is most likely due to a HTTP connection timeout, and has not been resolved yet
