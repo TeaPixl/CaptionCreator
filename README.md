@@ -34,7 +34,7 @@ You can change the API that is used to convert speech into text with the recogni
 
 To use and edit this software you will need Python, and a couple of packages installed as well
 You will need the following packages:
-```
+```python
 pip install SpeechRecognition
 pip install Progressbar
 pip install ffmpeg
