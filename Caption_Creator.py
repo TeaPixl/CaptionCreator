@@ -64,7 +64,7 @@ finally:
             f.write("***CAPTIONS***\n\n")
             f.write(finished_audio.capitalize())
             f.write("\n\n")
-            f.write("-Credits go to L.T, Thx :D") # credits (of course :/)
+            f.write("-Credits go to Teapixl, Thx :D") # credits (of course :/)
             f.close
             
 os.remove("Audio\\audio.wav") # removes the original file
