@@ -41,7 +41,9 @@ pip install ffmpeg
 ```
 
 For basic usage you will rename your audio file to "audio" and place it in the empty directory named "Audio"
+
 YOUR ORGINAL AUDIO WILL BE DELETED
+
 Then simply run the program and your captions will be outputted into the "Captions" directory
 
 ## Advanced Usage
