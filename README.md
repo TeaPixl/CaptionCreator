@@ -6,7 +6,7 @@ YOUR ORIGINAL AUDIO OR VIDEO FILE WILL BE LOST IN THE PROCESS SO BE SURE TO HAVE
 Click the .exe file to start the program
 
 I am not held liable for any loss of video or audio from misuse of this software, Thanks!
-Creation and Credits go to L.T :)
+Creation and Credits go to TeaPixl :)
 
 
 
